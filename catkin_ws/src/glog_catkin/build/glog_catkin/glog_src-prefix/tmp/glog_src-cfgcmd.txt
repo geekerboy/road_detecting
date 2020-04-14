@@ -1,1 +1,0 @@
-cmd='cd;../glog_src/;&&;./configure;--with-pic;--with-gflags=;--prefix=/home/curry/ROS_ws/glog_catkin/devel'
