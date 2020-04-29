@@ -16,7 +16,7 @@
   <!-- 添加了下面一段话，使其可以正常的执行路面检测的代码 -->
   <node pkg = "linefit_ground_segmentation_ros" name = "ground_segmentation_node"
       type = "ground_segmentation_node"/>
-  <node name="segmentation_rviz" pkg="rviz" type="rviz" />
-<!--  <node name="segmentation_rviz" pkg="rviz" type="rviz"-->
-<!--        args="$(find linefit_ground_segmentation_ros)/rviz/segmentation.rviz" />-->
+<!--  <node name="segmentation_rviz" pkg="rviz" type="rviz" />-->
+  <node name="segmentation_rviz" pkg="rviz" type="rviz"
+        args="$(find linefit_ground_segmentation_ros)/rviz/segmentation.rviz" />
 </launch>

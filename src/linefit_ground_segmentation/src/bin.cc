@@ -24,11 +24,9 @@ void Bin::addPoint(const double& d, const double& z) {
 /*判断是否有点，如果有点存在的话，将我们之前算好的min_z和min_z_range传入到point之中*/
 Bin::MinZPoint Bin::getMinZPoint() {
   MinZPoint point;
-
   if (has_point_) {
     point.z = min_z;
     point.d = min_z_range;
   }
-
   return point;
 }

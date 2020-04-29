@@ -8,9 +8,9 @@
 
 class Segment {
 public:
-  typedef std::pair<Bin::MinZPoint, Bin::MinZPoint> Line;
+  typedef std::pair<Bin::MinZPoint, Bin::MinZPoint> Line;  //两个点
 
-  typedef std::pair<double, double> LocalLine;
+  typedef std::pair<double, double> LocalLine;  // (m,b)
 
 private:
   // Parameters. Description in GroundSegmentation.

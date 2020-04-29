@@ -100,7 +100,7 @@ void Segment::fitSegmentLines() {
     }
   }
   // Add last line.
-  /*添加最后一条线*/
+
   if (current_line_points.size() > 2) {
     const LocalLine new_line = fitLocalLine(current_line_points);
     lines_.push_back(localLineToLine(new_line, current_line_points));
